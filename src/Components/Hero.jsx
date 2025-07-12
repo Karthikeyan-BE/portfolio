@@ -4,9 +4,9 @@ import { AiOutlineInstagram,AiOutlineFacebook ,AiOutlineGithub,AiOutlineLinkedin
 
 const Hero = () => {
   return (
-    <section className='flex md:flex-row flex-col bg-gray-800 py-32 text-white md:justify-center  items-center h-screen justify-around' >
+    <section className='flex md:flex-row flex-col bg-gray-800 py-32 text-white md:justify-center  items-center  justify-around' >
         <div className='md:w-1/2'>
-        <h1 className='md:text-6xl text-4xl'>Hi ,<br />I'm  Karthikeyan T
+        <h1 className='text-6xl'>Hi ,<br />I'm  Karthikeyan T
             <p className='text-2xl'>Im Full-Stack Developer</p>
         </h1>
         <div className='flex py-5'>
@@ -16,7 +16,7 @@ const Hero = () => {
             <a href="https://linkedin.com/in/karthikeyan-t-82b2992a7" className='hover:text-blue-800'><AiOutlineLinkedin size={40}/></a>
         </div>
         </div>
-        <img className='md:w-1/3  animate-pulse bg-fixed ' src={hero} alt="hero_png" />
+        <img className='md:w-1/3  p-5 animate-pulse bg-fixed ' src={hero} alt="hero_png" />
     </section>
   )
 }
