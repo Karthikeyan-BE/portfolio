@@ -26,7 +26,7 @@ const Projects = () => {
       name:"Portfolio",
       description:"Responsive personal portfolio website using React and Tailwind CSS",
       img:portfolio,
-      gitLink:"",
+      gitLink:"https://github.com/Karthikeyan-BE/portfolio.git",
       siteLink:""
     },
     {
