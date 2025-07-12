@@ -2,6 +2,9 @@ import React from 'react';
 import gym from '../assets/gym.png'
 import library from '../assets/library.png'
 import portfolio from '../assets/portfolio.png'
+import weather from '../assets/weather.jpeg'
+import todo from '../assets/todo.jpeg'
+
 
 const Projects = () => {
   const projectDetails = [
@@ -33,7 +36,7 @@ const Projects = () => {
       id:4,
       name:"weather App",
       description:"Real time weather data using rapid weather api",
-      img:portfolio,
+      img:weather,
       gitLink:"https://github.com/Karthikeyan-BE/Weather_MERN.git",
       siteLink:""
     },
@@ -41,7 +44,7 @@ const Projects = () => {
       id:5,
       name:"Todo",
       description:"Responsive Todo app with Login Build with Tailwind , React , Zustand , Express , MongoDB",
-      img:portfolio,
+      img:todo,
       gitLink:"https://github.com/Karthikeyan-BE/Todo_Mern.git",
       siteLink:""
     },
