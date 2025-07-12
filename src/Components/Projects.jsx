@@ -10,7 +10,7 @@ const Projects = () => {
       name:"Library Management",
       description:"Library Management System Using React JS , Express Js , SQL , Bootstrap ",
       img:library,
-      gitLink:"",
+      gitLink:"https://github.com/Karthikeyan-BE/LMS_SQL.git",
       siteLink:""
     },
     {
@@ -29,9 +29,25 @@ const Projects = () => {
       gitLink:"",
       siteLink:""
     },
+    {
+      id:4,
+      name:"weather App",
+      description:"Real time weather data using rapid weather api",
+      img:portfolio,
+      gitLink:"https://github.com/Karthikeyan-BE/Weather_MERN.git",
+      siteLink:""
+    },
+    {
+      id:5,
+      name:"Todo",
+      description:"Responsive Todo app with Login Build with Tailwind , React , Zustand , Express , MongoDB",
+      img:portfolio,
+      gitLink:"https://github.com/Karthikeyan-BE/Todo_Mern.git",
+      siteLink:""
+    },
   ]
   return (
-    <section className='flex p-5 flex-col bg-gray-800 text-white h-screen items-center justify-center' id='project'>
+    <section className='flex p-5 flex-col bg-gray-800 text-white  items-center justify-center' id='project'>
         <div className='py-5'>
             <h1 className='text-3xl  font-bold border-b-4 w-[130px] '>Projects</h1>
         </div>

@@ -3,7 +3,7 @@ import resume_img from '../assets/resume.jpg'
 
 const Resume = () => {
   return (
-    <section className='flex flex-col md:flex-row bg-gray-800 h-screen text-white justify-center  items-center' id='resume'>
+    <section className='flex flex-col h-[80vh] md:flex-row bg-gray-800  text-white justify-center  items-center' id='resume'>
         <div className='md:w-1/2 py-5 flex justify-center md:justify-end'>
             <img src={resume_img} alt="about_png" className='animate-pulse w-[300px]'/>
         </div>

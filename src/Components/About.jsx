@@ -3,7 +3,7 @@ import about_img from '../assets/about.png'
 
 const About = () => {
   return (
-    <section className='flex flex-col md:flex-row bg-gray-800 h-screen text-white items-center' id='about'>
+    <section className='flex flex-col md:flex-row bg-gray-800  text-white items-center' id='about'>
         <div className='md:w-1/2 py-5 '>
             <img src={about_img} alt="about_png" className='animate-pulse'/>
         </div>
